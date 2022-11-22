@@ -3,10 +3,6 @@ public class recClass {
     public static animeObject userInput;
     public static String name;
 
-    /**
-     *
-     * @return a
-     */
     static String recommend(){
         /*
         lines 15 through 26 asks for the users input for an anime they've watched before

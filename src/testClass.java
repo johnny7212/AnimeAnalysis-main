@@ -4,7 +4,7 @@ public class testClass {
     public static Scanner scanner2 = new Scanner(System.in);
     public static void runTest(){
         /*
-            Firstly, it adds each animeObject into the anime list, then proceeds
+            Firstly it runs the commitLib method, then proceeds
             to introduce the user to Anime Analysis. It asks the user if they'd like to rate
             an anime or get a recommendation. If they want to rate an anime then it goes to
             ratingYe class and runs rateIt() method. If they want a recommendation then it goes to

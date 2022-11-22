@@ -63,7 +63,7 @@ public class ratingYe{
     }
 
     /*
-    The following rateIt method is run in the instance the user wants to rate an anime that they just added to
+    The following rateIt method is run in the instance the user wants to rate the anime that they just added to
     the anime list
      */
     static void rateIt(String name){
