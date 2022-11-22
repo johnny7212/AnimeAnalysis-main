@@ -12,7 +12,7 @@ public class testClass {
         */
         library.commitLib();
         System.out.println("~~~~Welcome To Anime Analysis~~~~\n");
-        System.out.println("Would you like to rate an anime or get a recommendation?");
+        System.out.println("Would you like to (rate an anime) or (get a recommendation)?");
         String input= ratingYe.scanner.nextLine();
 
         input= input.toLowerCase();
