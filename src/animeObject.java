@@ -12,7 +12,7 @@ public class animeObject {
     public void setRate(double rate) {
         this.rate = rate;
     }
-    // lines 16 through 30 create the return statements for each parameter
+    // lines 16 through 34 create the return statements for each parameter
     public double getRate() {
         return rate;
     }
@@ -29,12 +29,14 @@ public class animeObject {
         return genre2;
     }
 
-    //public String getSeason() {
-    //    return season;
-    //}
+    public String getSeason() {
+        return season;
+    }
 
 
     /**
+     *
+     *
      * @param name the name of an anime
      * @param season string number of seasons in an anime
      * @param genre names one of the genres an anime could be
@@ -74,6 +76,7 @@ public class animeObject {
      */
     @Override
     public String toString() {
+            // Line 80 is an if statement used when an anime is ongoing and doesn't have a full season
             if (season.equals("")){
                 return name + ", " + genre + ", " + genre2 + ", " + relDate + ", " + rate;
             }
