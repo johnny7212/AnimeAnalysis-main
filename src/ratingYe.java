@@ -6,7 +6,7 @@ public class ratingYe{
 
     static void rateIt(){
         int i = 0;
-
+        //The while loop below prints out every item in the anime list
         while(i< library.anime.size()){
             System.out.println(library.anime.get(i).toString());
             i++;
@@ -14,6 +14,13 @@ public class ratingYe{
         i= 0;
         System.out.println("\nWhich anime would you like to rate?");
         String name= scanner.nextLine();
+        /*
+        The while loop below takes the users input for the anime they chose and goes through the list until it
+        finds it. Then it asks the user if they would like to rate it up or down. Inputting up takes the rating of
+        their anime and increases it by .25. Likewise, inputting down decreases the rate by .25. Then it thanks the
+        user and breaks the while loop.
+         */
+
         while(i< library.anime.size()){
             String nameCheck = library.anime.get(i).getName();
 
@@ -34,8 +41,11 @@ public class ratingYe{
                 }
             }
             i++;
-
         }
+
+        /*
+        The following if statement is run when it finds that the users anime isn't in the list of anime
+         */
         if (work== 0){
             System.out.println("Sorry we don't have that anime in our library. Would you like to pick another? (yes or no) ");
             String answer= scanner.nextLine();

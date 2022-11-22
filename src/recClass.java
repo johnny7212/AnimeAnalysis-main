@@ -43,7 +43,7 @@ public class recClass {
             }
             loop++;
         }
-        // line 43 adds the users imputed anime to the list to be accessed later
+        // line 43 adds the users inputted anime to the list to be accessed later
         library.anime.add(userInput);
         // line 44 returns a recommendation of an anime given from the while loop above
         return "You should watch this next >:D --->" + answer.toString() + "\n";
